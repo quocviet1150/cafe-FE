@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="https://phuclong.com.vn/images/common/delivery.png" alt="Logo">
+            </div>
+            <div style="width: 20%;">
+                <div class="actions">
+                    <a class="login">Đăng nhập</a>
+                    <a class="language">VN</a>
+                    <a>EN</a>
+                    <a class="cart">Giỏ hàng <span>0</span></a>
+                </div>
+            </div>
+        </div>
+        <div style="border-bottom: 2px solid #ccc; margin-bottom: 0.5%;"></div>
+        <div class="container" style="margin-bottom: 0%;">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="home.html" class="title-header">TRANG CHỦ</a></li>
+                        <li class="dropdown"><a href="hat-ca-phe.html" class="dropbtn">CÀ PHÊ</a>
+                            <div class="dropdown-content">
+                                <a href="#">Hành trình tách cà phê đậm vị</a>
+                                <a href="hat-ca-phe.html">Hạt cà phê Phúc Long</a>
+                                <a href="#">Nghệ thuật pha chế</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="#" class="dropbtn">TRÀ</a>
+                            <div class="dropdown-content">
+                                <a href="#">Hành trình tách trà đậm vị</a>
+                                <a href="#">Lá trà Phúc Long</a>
+                                <a href="#">Cold Brew Tea - Trà Ủ Lạnh - Phong Cách Trà Mới</a>
+                                <a href="#">Nghệ thuật pha chế</a>
+                            </div>
+                        </li>
+                        <li class="dropdown"><a href="#" class="dropbtn">THỨC UỐNG</a>
+                            <div class="dropdown-content">
+                                <a href="#">Thức uống</a>
+                                <a href="#">Bánh tráng miệng</a>
+                            </div>
+                        </li>
+                        <li><a class="title-header" href="hat-ca-phe.html">SẢN PHẨM</a></li>
+                        <li><a href="#" class="title-header">KHUYẾN MÃI</a></li>
+                        <li><a href="#" class="title-header">VỀ CHÚNG TÔI</a></li>
+                        <li><a href="#" class="title-header">THẺ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="https://phuclong.com.vn/uploads/banner/6835f7782d417b-webcuseason2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="https://phuclong.com.vn/uploads/banner/fcce576236c23c-__web_c_1920_x_576.jpg"
+                    style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="https://phuclong.com.vn/uploads/banner/e95571e4eac856-z4969856358779_ec5ccf8e276d9024f3096ab4917741a6.jpg"
+                    style="width:100%">
+            </div>
+
+            <div style="text-align:center;margin-top: -2%;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <div style="width: 60%;margin-left: 20%;">
+            <section class="tea-section">
+                <div class="tea-image">
+                    <img src="https://phuclong.com.vn/uploads/post/20649d183ca5f1-bannertrangchu.jpg" alt="Tea Image">
+                </div>
+                <div class="tea-content">
+                    <h1 style="color: green;">TỪ NHỮNG MẦM TRÀ, CHÚNG TÔI TẠO RA NIỀM ĐAM MÊ</h1>
+                    <p>
+                        Trải qua hơn 50 năm chải chất thủy tinh hoa tự nhiên bữa trà xanh và hạt cài
+                        để phục vụ hàng ngày mang một mùi hương mới mang lại cơ hội khách hàng những trải
+                        nghiệm giá trị nhất khi khui thưởng thức, Phúc Long luôn tiên tiến phong với nhiều ý tưởng
+                        sáng tạo đối với ngành trà và cà phê.
+                    </p>
+                    <p>
+                        Chúng tôi tin rằng từng sản phẩm trà và cà phê sẽ càng thêm hấp dẫn khi được tạo ra từ sự
+                        pha trộn đặc biệt hương vị của mỗi loại hạt thực phẩm dễ tiếp xúc với nước, từng tư vấn chất
+                        lượng đều tạo nên một sản phẩm hoàn hảo cùng niềm đam mê.
+                    </p>
+                    <button>XEM THÊM</button>
+                </div>
+            </section>
+
+            <section class="tea-section">
+                <div class="tea-content">
+                    <h1 style="color: green;">ĐỘI NGŨ NHÂN VIÊN TRÀN ĐẦY NHIỆT HUYẾT</h1>
+                    <p>
+                        Trong suốt quá trình hoạt động và phát triển, đội ngũ quản lý và nhân viên của Phúc Long
+                        Coffee & Tea, qua bao thế hệ, đã cùng nhau xây dựng, nuôi dưỡng niềm đam mê dành cho trà
+                        và cà phê với mong muốn được thử thách bản thân trong ngành dịch vụ năng động và sáng
+                        tạo.
+                    </p>
+                    <button>GIA NHẬP ĐỘI NGŨ PHÚC LONG</button>
+                </div>
+
+                <div class="tea-image">
+                    <img src="https://phuclong.com.vn/uploads/post/024b7d5e73bbb2-8ed98f521583690431954887e772tuyendung1.jpg"
+                        alt="Tea Image">
+                </div>
+            </section>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Trụ sở chính:</h3>
+                <p>Công ty Cổ phần Phúc Long Heritage - ĐKKD: 0316 871 719</p>
+                <p>Nhà máy: Đường Xe 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước, thị xã Bến Cát, tỉnh Bình Dương,
+                    Việt Nam</p>
+                <p>Địa chỉ: Phòng 702, Tòa nhà Central Plaza, số 17 Lê Duẩn, phường Bến Nghé, quận 1, Hồ Chí Minh</p>
+                <p>Điện thoại: 1900 234 518 (Ext. 9100/ 9102)</p>
+                <p>Fax: (028) 6263 0379</p>
+                <p>Email: <a href="mailto:sales@phuclong.masangroup.com">sales@phuclong.masangroup.com</a></p>
+                <p>Email: <a href="mailto:info2@phuclong.masangroup.com">info2@phuclong.masangroup.com</a></p>
+            </div>
+            <div class="footer-subscribe" style="width: 35%;">
+                <h3>Đăng ký nhận tin khuyến mãi</h3>
+                <input type="email" placeholder="Nhập địa chỉ email">
+                <button>Gửi</button>
+                <div class="footer-notices">
+                    <h3>Chính sách</h3>
+                    <p>Chính sách đặt hàng</p>
+                    <p>Chính sách bảo mật thông tin</p>
+                </div>
+            </div>
+
+            <div class="footer-subscribe" style="width: 20%;display: grid; justify-items: end;align-content: center;">
+                <div class="actions" style="display: flex;">
+                    <a class="language">VN</a>
+                    <a>EN</a>
+                </div>
+                <img style="width: 50%; margin-top: 2%;" src="https://phuclong.com.vn/images/common/dathongbao.png" />
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="../javascrift/index.js"></script>
+</body>
+
+</html>
