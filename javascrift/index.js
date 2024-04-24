@@ -37,6 +37,7 @@ for (var i = 0; i < includes.length; i++) {
         include.remove();
     });
 }
+
 function load_file(filename, callback) {
     fetch(filename).then(response => response.text()).then(text => callback(text));
 }
