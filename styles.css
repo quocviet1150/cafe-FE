@@ -375,9 +375,17 @@ img {
     overflow: hidden;
 }
 
+.panelSlide {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
 .panel {
     display: none;
     animation: fadein 0.8s;
+
 }
 
 @keyframes fadein {
@@ -401,7 +409,10 @@ img {
 
 #one:checked~.panels #one-panel,
 #two:checked~.panels #two-panel,
-#three:checked~.panels #three-panel {
+#three:checked~.panels #three-panel,
+#one:checked~.panelSlide #one-panel,
+#two:checked~.panelSlide #two-panel,
+#three:checked~.panelSlide #three-panel {
     display: block;
 }
 
@@ -412,4 +423,118 @@ img {
     color: green;
     border-top: 1px solid green;
     border-bottom: 1px solid green;
+}
+
+.coffee-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+.coffee-item {
+    text-align: center;
+    padding: 1%;
+    width: 30%;
+}
+
+.coffee-item img {
+    height: 25vh;
+}
+
+.coffee-item p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.menu-item {
+    text-align: center;
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.menu-item img {
+    max-height: 20vh;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.menu-item .price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.order-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #45a049;
+}
+
+.container-sale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.card {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 25vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content {
+    padding: 0px 10px;
+}
+
+.card-content h3 {
+    font-size: 16px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
 }
