@@ -261,13 +261,16 @@ img {
 
 .footer-content {
     display: flex;
-    width: 60%;
-    margin-left: 20%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .footer-info {
     width: 40%;
     margin-right: 4%;
+}
+.footer-info p{
+    margin: 5px 0;
 }
 
 .footer-subscribe {
