@@ -341,6 +341,14 @@ img {
     display: flex;
 }
 
+.title-one {
+    font-size: 18px;
+    color: green;
+    padding-top: 1%;
+    justify-content: start;
+    display: flex;
+}
+
 .w3-container {
     width: 70%;
     margin-left: 30%;
