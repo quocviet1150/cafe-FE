@@ -12,7 +12,7 @@
 }
 
 .logo {
-    width: 80%;
+    width: 70%;
     margin-bottom: 0.5%;
 }
 
@@ -44,11 +44,17 @@
 
 .actions a {
     text-decoration: none;
-    font-weight: bold;
 }
 
 .actions a:last-child {
     margin-left: 0;
+}
+
+.actions a.cart {
+    border: 1px solid green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: green;
 }
 
 .actions a.cart span {
@@ -225,8 +231,14 @@ img {
     margin-bottom: 20px;
 }
 
+.tea-content h1 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
 .tea-content p {
-    font-size: 16px;
+    font-size: 20px;
     color: black;
     margin-bottom: 20px;
 }
@@ -269,7 +281,8 @@ img {
     width: 40%;
     margin-right: 4%;
 }
-.footer-info p{
+
+.footer-info p {
     margin: 5px 0;
 }
 
@@ -337,7 +350,7 @@ img {
 }
 
 .title {
-    font-size: 36px;
+    font-size: 45px;
     color: green;
     padding-top: 1%;
     justify-content: center;
@@ -381,7 +394,7 @@ img {
 .panels {
     background: #fff;
     min-height: 200px;
-    width: 70%;
+    width: 60%;
     border-radius: 3px;
     overflow: hidden;
 }
@@ -421,6 +434,7 @@ img {
 #one:checked~.panels #one-panel,
 #two:checked~.panels #two-panel,
 #three:checked~.panels #three-panel,
+#four:checked~.panels #four-panel,
 #one:checked~.panelSlide #one-panel,
 #two:checked~.panelSlide #two-panel,
 #three:checked~.panelSlide #three-panel {
@@ -429,7 +443,8 @@ img {
 
 #one:checked~.tabs #one-tab,
 #two:checked~.tabs #two-tab,
-#three:checked~.tabs #three-tab {
+#three:checked~.tabs #three-tab,
+#four:checked~.tabs #four-tab {
     background: #fff;
     color: green;
     border-top: 1px solid green;
@@ -548,4 +563,34 @@ img {
     font-size: 14px;
     color: #888;
     margin-bottom: 5px;
+}
+
+.separator-icon {
+    background-image: url("https://phuclong.com.vn/images/icon_tealeaves.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+    color: #888;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
 }
