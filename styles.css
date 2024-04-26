@@ -260,6 +260,10 @@ img {
 
 .tea-image {
     max-width: 400px;
+    background-image: url("https://phuclong.com.vn/images/background/bg_category_tea.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .tea-image img {
@@ -574,6 +578,7 @@ img {
     height: 50px;
     margin: 0 auto;
     color: #888;
+    margin-bottom:4% ;
 }
 
 .btn {
@@ -593,4 +598,11 @@ img {
 
 .btn:hover {
     background-color: #45a049;
+}
+
+.img-background{
+    background-image: url("https://phuclong.com.vn/images/background/bg_category_tea.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
